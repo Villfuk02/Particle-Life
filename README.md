@@ -8,7 +8,7 @@ This is a simulation consisting of many particles existing in a 2D toroidal worl
 
 This project uses the SFML library for C++.
 
-The Visual Studio project is configured for a debug build on a 64-bit Windows machine. Simply open the project in Visual Studio and start debugging and it will work on most 64-bit Windows machines. For release build, you'll need to reconfigere the project for release build according to [this guide](https://www.sfml-dev.org/tutorials/2.5/start-vc.php). On other operating systems, you'll need to download the corresponding SFML library from [here](https://www.sfml-dev.org/download.php).
+The Visual Studio project is configured for a debug build on a 64-bit Windows machine. Simply [download SFML 2.5.1 for 64bit Windows](https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip), unzip it and put the folder into this project's folder. Then open the project in Visual Studio and start debugging. For release build, you'll need to reconfigere the project for release build according to [this guide](https://www.sfml-dev.org/tutorials/2.5/start-vc.php). On other operating systems, you'll need to download the corresponding SFML library from [here](https://www.sfml-dev.org/download.php).
 
 The application also requires a true type font file called "font.ttf" in the same directory. This font is then used for drawing text in the graphical view. The font file included in this project is [Cascadia Mono](https://github.com/microsoft/cascadia-code).
 
